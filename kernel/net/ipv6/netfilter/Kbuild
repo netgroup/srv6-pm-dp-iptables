@@ -1,0 +1,3 @@
+obj-m := ip6t_srh.o
+
+ccflags-y := -I$(src)/../../../include/uapi/linux/netfilter_ipv6
